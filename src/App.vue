@@ -3,7 +3,7 @@
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link>
   </nav>
-  测试
+  测试11111111111111
   <router-view />
 </template>
 
