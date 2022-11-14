@@ -5,7 +5,7 @@ const Components = require("unplugin-vue-components/webpack");
 const { ElementPlusResolver } = require("unplugin-vue-components/resolvers");
 module.exports = defineConfig({
   transpileDependencies: true,
-  outputDir: "./build",
+  outputDir: "./dist",
   devServer: {
     proxy: {
       "^/api": {
